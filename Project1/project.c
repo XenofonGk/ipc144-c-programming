@@ -1,25 +1,6 @@
-/***************************************************************** 
-
-    File: project.c
-
-    Author: [Xenofon Gkioka]
-    Seneca email: [xgkioka@myseneca.ca]
-
-    To compile program in codespaces, in terminal pane type:
-        gcc -Wall project.c projectmain.c
-    To run program in codespaces, in terminal pane type:
-        ./a.out
-        
-    ASCII Train art inspired by public domain ASCII trains from:
-     https://asciiart.website/index.php?art=transportation/trains
-    Modified and adapted by <Xenofon> for this assignment.
-***************************************************************/
-//Uncomment the next line if you are using Visual Studio
-//#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include "project.h"
 
-/* ========== INPUT ========== */
 
 int getNumTrainCars(void)  // asks for number of cars
 {
@@ -49,14 +30,12 @@ char getDirection(void)  // asks for direction of travel
     return dir;
 }
 
-/* ========== OUTPUT ========== */
 
 void drawTrain(int cars, char dir) //  draws the train
  {
     int i, row;
 
-     /* --- smoke just once, above the engine --- */
-    if (dir == 'R') {
+    if (dir == 'R') 
         printf("      ");                 /* match engine left padding */
         for (i = 0; i < cars + 3; i++) printf("~ ");
         printf("\n");
