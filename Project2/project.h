@@ -1,16 +1,3 @@
-/***********************************************************************
-
-    File: project.h
-
-    Author: [Xenofon Gkioka]
-    Seneca email: [xgkioka@myseneca.ca]
-
-    To compile program in codespaces, in terminal pane type:
-        gcc -Wall project.c projectmain.c
-    To run program in codespaces, in terminal pane type:
-        ./a.out
-
-***********************************************************************/
 
 #define START_YEAR 1914
 #define END_YEAR 2023
