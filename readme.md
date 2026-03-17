@@ -5,8 +5,8 @@ Course assignments for Introduction to Programming Using C at Seneca College.
 ## Structure
 
 - `Learning/` - exercises and practice code from lectures
-- `Project1/` - contact management system
-- `Project2/` - clinic management system
+- `Project1/` - train system
+  - `Project2/` - Baby name finder system system
 
 ## Run
 
