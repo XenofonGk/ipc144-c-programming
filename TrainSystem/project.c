@@ -35,7 +35,7 @@ void drawTrain(int cars, char dir) //  draws the train
  {
     int i, row;
 
-    if (dir == 'R') 
+    if (dir == 'R') {
         printf("      ");                 /* match engine left padding */
         for (i = 0; i < cars + 3; i++) printf("~ ");
         printf("\n");
